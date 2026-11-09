@@ -410,50 +410,6 @@
             gap: 15px;
         }
 
-        /* RESPONSIVE DESIGN */
-
-        @media(max-width: 750px) {
-
-            .profile { min-height: 390px; width: min(100%, 420px); margin: 5px auto 0; }
-            .profile-photo { max-height: 430px; }
-
-            .nav-links {
-                display: none;
-            }
-
-            .hero {
-                grid-template-columns: minmax(0, 1fr);
-                padding: 55px 0;
-                gap: 35px;
-            }
-
-            .profile {
-                height: 330px;
-                min-height: 300px;
-            }
-
-            .hero h1 {
-                letter-spacing: -3px;
-            }
-
-            .about-grid,
-            .skills-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .projects-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .section-heading h2 {
-                font-size: 29px;
-            }
-
-            .education-item {
-                flex-direction: column;
-            }
-        }
-
 /* Floating portrait label */
 .profile-label {
     position: absolute;
@@ -471,6 +427,4 @@
     box-shadow: 5px 5px 0 #20211e;
 }
 
-@media (max-width: 750px) {
-    .profile-label { right: 2px; bottom: 22px; font-size: 9px; padding: 9px 12px; }
-}
+
